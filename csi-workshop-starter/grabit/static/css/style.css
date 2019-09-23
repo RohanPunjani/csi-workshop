@@ -1,0 +1,84 @@
+/* PREDEFINED STYLES */
+html {
+  scroll-behavior: smooth;
+}
+
+.fade.in {
+  opacity: 1;
+}
+.modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.modal-backdrop.in {
+  opacity: 0.5;
+}
+.add {
+  margin: 20px;
+}
+.box {
+  height: 50vh;
+  width: 40%;
+  background-color: white;
+  margin: 50px;
+  box-shadow: 0 0 50px grey;
+}
+.btn-info {
+  background: white;
+  color: rgba(0, 0, 0, 0.8);
+  border: 2px solid white;
+  font: tahoma;
+  border: 0;
+}
+.card {
+  background: linear-gradient(to bottom right, cyan, black);
+  margin: 50px 0;
+  border: 0;
+}
+.card-title {
+  color: white;
+}
+.card-text {
+  color: white;
+}
+#game {
+  background: #000;
+}
+#btn-pg {
+  margin: 0px 80px;
+  font-size: 3vh;
+  background: black;
+  color: white;
+  margin-left: 45%;
+  margin-top: ;
+  max-width: 200px;
+  transition: all 0.4s ease-in-out;
+}
+#btn-pg:hover {
+  background: transparent;
+  color: black;
+  border: 1px solid black;
+}
+.row {
+  width: 100%;
+  margin: auto;
+}
+.bg {
+  height: 100vh;
+  width: 100%;
+  background: url(../../../media/images/wp4412955.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.home {
+  height: inherit;
+  background: rgba(0, 0, 0, 0.2);
+}
+.desc {
+  padding-top: 50px;
+  color: black;
+  width: 50%;
+  margin: auto;
+}
